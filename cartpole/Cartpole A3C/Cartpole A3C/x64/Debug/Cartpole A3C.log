@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\rl\cartpole a3c\cartpole a3c\a3c.h(401): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\main.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\main.cpp(67): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\main.cpp(214): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\rl\mtnn\include\neuralnet.h(1787): warning C4715: 'NeuralNet<InputLayer<10,1,4,1>,PerceptronFullConnectivityLayer<20,1,4,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<30,1,128,1,1,200,1,5,1>,PerceptronFullConnectivityLayer<40,1,200,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<40,1,128,1,1,1,1,0,1>,PerceptronFullConnectivityLayer<50,1,1,1,1,1,1,0,1>,OutputLayer<50,1,1,1> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\neuralnet.h(1787): warning C4715: 'NeuralNet<InputLayer<1,1,4,1>,PerceptronFullConnectivityLayer<2,1,4,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<3,1,128,1,1,200,1,5,1>,PerceptronFullConnectivityLayer<4,1,200,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<4,1,128,1,1,2,1,0,1>,PerceptronFullConnectivityLayer<5,1,2,1,1,2,1,0,1>,OutputLayer<5,1,2,1> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,1,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,2,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,4,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,128,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,128,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,200,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,200,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,4,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,1,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,2,1>::activate': not all control paths return a value
+  Cartpole A3C.vcxproj -> C:\RL\Cartpole A3C\x64\Debug\Cartpole A3C.exe
+  Cartpole A3C.vcxproj -> C:\RL\Cartpole A3C\x64\Debug\Cartpole A3C.pdb (Full PDB)

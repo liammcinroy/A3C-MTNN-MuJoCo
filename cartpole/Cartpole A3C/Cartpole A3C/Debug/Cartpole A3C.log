@@ -1,0 +1,23 @@
+﻿  main.cpp
+c:\rl\cartpole a3c\cartpole a3c\a3c.h(303): warning C4244: 'initializing': conversion from 'float' to 'std::size_t', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\a3c.h(306): warning C4244: '=': conversion from 'std::size_t' to 'float', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\a3c.h(363): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\main.cpp(31): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\rl\cartpole a3c\cartpole a3c\main.cpp(40): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\rl\mtnn\include\neuralnet.h(1746): warning C4715: 'NeuralNet<InputLayer<10,1,3,1>,BatchNormalizationLayer<10,1,3,1,0>,PerceptronFullConnectivityLayer<20,1,3,1,1,200,1,5,1>,BatchNormalizationLayer<30,1,200,1,0>,PerceptronFullConnectivityLayer<3,1,200,1,1,1,1,0,1>,OutputLayer<5,1,1,1> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\neuralnet.h(1746): warning C4715: 'NeuralNet<InputLayer<1,1,3,1>,BatchNormalizationLayer<1,1,3,1,0>,PerceptronFullConnectivityLayer<2,1,3,1,1,200,1,5,1>,BatchNormalizationLayer<3,1,200,1,0>,PerceptronFullConnectivityLayer<3,1,200,1,1,2,1,0,1>,OutputLayer<5,1,2,1> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(245): warning C4715: 'Layer_Functions<1,1,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(245): warning C4715: 'Layer_Functions<1,2,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(229): warning C4715: 'Layer_Functions<1,3,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(245): warning C4715: 'Layer_Functions<1,200,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(229): warning C4715: 'Layer_Functions<1,200,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(245): warning C4715: 'Layer_Functions<1,3,1>::activation_derivative': not all control paths return a value
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_state referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_control referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_onebody referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_set_control referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_step referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_reset referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_name2id referenced in function "int __cdecl A3C(unsigned int &)" (?A3C@@YAHAAI@Z)
+C:\RL\mjhaptix131\apicpp\mjhaptix_user.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\RL\Cartpole A3C\Debug\Cartpole A3C.exe : fatal error LNK1120: 7 unresolved externals
