@@ -1,0 +1,14 @@
+﻿main.obj : error LNK2001: unresolved external symbol __imp__mj_get_onebody
+main.obj : error LNK2001: unresolved external symbol __imp__mj_set_onebody
+main.obj : error LNK2001: unresolved external symbol __imp__mj_set_state
+main.obj : error LNK2001: unresolved external symbol __imp__mj_get_state
+main.obj : error LNK2001: unresolved external symbol __imp__mj_reset
+main.obj : error LNK2001: unresolved external symbol __imp__mj_close
+main.obj : error LNK2001: unresolved external symbol __imp__mj_set_control
+main.obj : error LNK2001: unresolved external symbol __imp__mj_info
+main.obj : error LNK2001: unresolved external symbol __imp__mj_step
+main.obj : error LNK2001: unresolved external symbol __imp__mj_get_body
+main.obj : error LNK2001: unresolved external symbol __imp__mj_get_control
+main.obj : error LNK2001: unresolved external symbol __imp__mj_id2name
+main.obj : error LNK2001: unresolved external symbol __imp__mj_connect
+C:\RL\GHCR with A3C Environments\Release\GHCR with A3C Environments.exe : fatal error LNK1120: 13 unresolved externals

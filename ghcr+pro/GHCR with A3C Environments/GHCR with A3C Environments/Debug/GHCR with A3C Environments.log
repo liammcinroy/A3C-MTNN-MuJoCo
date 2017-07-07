@@ -1,0 +1,30 @@
+﻿  main.cpp
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\main.cpp(87): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\main.cpp(150): warning C4018: '<': signed/unsigned mismatch
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\main.cpp(189): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\main.cpp(198): warning C4018: '<': signed/unsigned mismatch
+c:\rl\mtnn\include\neuralnet.h(1787): warning C4715: 'NeuralNet<InputLayer<1,1,4,1>,PerceptronFullConnectivityLayer<2,1,4,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<3,1,128,1,1,200,1,5,1>,PerceptronFullConnectivityLayer<4,1,200,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<4,1,128,1,1,1,2,0,1>,PerceptronFullConnectivityLayer<5,1,1,2,1,1,2,0,1>,OutputLayer<5,1,1,2> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\neuralnet.h(1787): warning C4715: 'NeuralNet<InputLayer<10,1,4,1>,PerceptronFullConnectivityLayer<20,1,4,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<30,1,128,1,1,200,1,5,1>,PerceptronFullConnectivityLayer<40,1,200,1,1,128,1,5,1>,PerceptronFullConnectivityLayer<40,1,128,1,1,1,1,0,1>,PerceptronFullConnectivityLayer<50,1,1,1,1,1,1,0,1>,OutputLayer<50,1,1,1> >::global_error': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,1,2>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,1,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,4,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,128,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,128,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,200,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,200,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,4,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,1,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,1,2>::activate': not all control paths return a value
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_state referenced in function "public: void __thiscall SimEnvi::get_current_state(struct _mjState * &,struct _mjOneBody * * const)" (?get_current_state@SimEnvi@@QAEXAAPAU_mjState@@QAPAU_mjOneBody@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_control referenced in function "public: __thiscall SimEnvi::SimEnvi(void)" (??0SimEnvi@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_onebody referenced in function "public: void __thiscall SimEnvi::get_current_state(struct _mjState * &,struct _mjOneBody * * const)" (?get_current_state@SimEnvi@@QAEXAAPAU_mjState@@QAPAU_mjOneBody@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_get_body referenced in function "public: __thiscall SimEnvi::SimEnvi(void)" (??0SimEnvi@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_set_state referenced in function "public: void __thiscall SimEnvi::set_current_state(struct _mjState * &,struct _mjOneBody * * const)" (?set_current_state@SimEnvi@@QAEXAAPAU_mjState@@QAPAU_mjOneBody@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_set_control referenced in function "public: void __thiscall SimEnvi::act(struct _mjControl * &)" (?act@SimEnvi@@QAEXAAPAU_mjControl@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_set_onebody referenced in function "public: void __thiscall SimEnvi::set_current_state(struct _mjState * &,struct _mjOneBody * * const)" (?set_current_state@SimEnvi@@QAEXAAPAU_mjState@@QAPAU_mjOneBody@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_connect referenced in function "public: __thiscall SimEnvi::SimEnvi(void)" (??0SimEnvi@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_close referenced in function "public: __thiscall SimEnvi::~SimEnvi(void)" (??1SimEnvi@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_info referenced in function "public: __thiscall SimEnvi::SimEnvi(void)" (??0SimEnvi@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_step referenced in function "public: void __thiscall SimEnvi::act(struct _mjControl * &)" (?act@SimEnvi@@QAEXAAPAU_mjControl@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__mj_reset referenced in function _main
+C:\RL\GHCR with A3C Environments\Debug\GHCR with A3C Environments.exe : fatal error LNK1120: 12 unresolved externals

@@ -1,0 +1,35 @@
+﻿  main.cpp
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(233): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(235): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(267): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(280): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(283): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(284): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(290): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(291): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(292): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(293): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\mjcEnvironment.h(295): warning C4244: '=': conversion from 'mjtNum' to 'float', possible loss of data
+c:\rl\ghcr with a3c environments\ghcr with a3c environments\a3c.h(485): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+main.cpp(111): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+main.cpp(173): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+main.cpp(287): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+main.cpp(351): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+main.cpp(351): warning C4154: deletion of an array expression; conversion to pointer supplied
+  Generating code
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,4,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,200,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,128,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,1,2>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(259): warning C4715: 'Layer_Functions<1,1,1>::activation_derivative': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,200,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,1,2>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,1,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,128,1>::activate': not all control paths return a value
+c:\rl\mtnn\include\ilayer.h(242): warning C4715: 'Layer_Functions<1,4,1>::activate': not all control paths return a value
+  528 of 3918 functions (13.5%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    121 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GHCR with A3C Environments.vcxproj -> C:\RL\GHCR with A3C Environments\x64\Release\GHCR with A3C Environments.exe
+  GHCR with A3C Environments.vcxproj -> C:\RL\GHCR with A3C Environments\x64\Release\GHCR with A3C Environments.pdb (Full PDB)
